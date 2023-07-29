@@ -1,4 +1,4 @@
-package com.study.board.controller.entity;
+package com.study.board.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -17,4 +17,6 @@ public class Board {
     private Integer id;
     private String title;
     private String content;
+    private String filename;
+    private String filepath;
 }

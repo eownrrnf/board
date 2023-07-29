@@ -31,6 +31,7 @@ dependencies {
 	annotationProcessor("org.projectlombok:lombok")
 	providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	developmentOnly("org.springframeworl.boot:spring-boot-devtools")
 }
 
 tasks.withType<Test> {
